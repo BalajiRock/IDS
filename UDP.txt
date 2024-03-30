@@ -1,0 +1,30 @@
+Source Ip :   192.168.241.109
+Source port :  137
+Destination Ip :   192.168.241.255
+Destination port :  137
+Protocol :  6
+Rev_Flag :  0
+CWE_Flag :  0
+ECE_Flag :  0
+URG_Flag :  0
+ACK_Flag :  0
+PSH_Flag :  0
+RST_Flag :  0
+SYN_Flag :  0
+FIN_Flag :  1
+No of Forward Packets :  2
+No of Backward Packets :  0
+Total Forward Packets Length :  156
+Total Backward Packets Length :  0
+Maximum Forward Packets Length :  78
+Minimum Forward Packets Length :  78
+Maximum Backward Packets Length :  0
+Minimum Backward Packets Length :  0
+Mean Forward Packets Length :  78.0
+Mean Backward Packets Length :  0
+Flow Duration :  -0.7841
+Inter Arrival Time :  0.7841
+Mean Inter Arrival Time :  0.39205
+
+
+

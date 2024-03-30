@@ -1,0 +1,6 @@
+sudo systemctl start zookeeper.service
+sudo systemctl start kafka.service
+
+
+cd /usr/local/kafka
+bin/kafka-topics.sh --bootstrap-server localhost:9092 --list 

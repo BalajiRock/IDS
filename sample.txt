@@ -1,0 +1,82 @@
+Frame 1: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
+        Interface name: enp0s3
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar  2, 2024 20:13:24.388103462 IST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1709390604.388103462 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 60 bytes (480 bits)
+    Capture Length: 60 bytes (480 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+Ethernet II, Src: 1a:d5:5c:30:f2:ab (1a:d5:5c:30:f2:ab), Dst: IntelCor_fd:7e:01 (80:b6:55:fd:7e:01)
+    Destination: IntelCor_fd:7e:01 (80:b6:55:fd:7e:01)
+        Address: IntelCor_fd:7e:01 (80:b6:55:fd:7e:01)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 1a:d5:5c:30:f2:ab (1a:d5:5c:30:f2:ab)
+        Address: 1a:d5:5c:30:f2:ab (1a:d5:5c:30:f2:ab)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    Padding: 000000000000
+Internet Protocol Version 4, Src: 67.198.221.226, Dst: 192.168.241.7
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 40
+    Identification: 0xe425 (58405)
+    Flags: 0x40, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 40
+    Protocol: TCP (6)
+    Header Checksum: 0x9b51 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 67.198.221.226
+    Destination Address: 192.168.241.7
+Transmission Control Protocol, Src Port: 500, Dst Port: 21997, Seq: 1, Ack: 1, Len: 0
+    Source Port: 500
+    Destination Port: 21997
+    [Stream index: 0]
+    [Conversation completeness: Incomplete (0)]
+    [TCP Segment Len: 0]
+    Sequence Number: 1    (relative sequence number)
+    Sequence Number (raw): 3414122342
+    [Next Sequence Number: 1    (relative sequence number)]
+    Acknowledgment Number: 1    (relative ack number)
+    Acknowledgment number (raw): 3133303538
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x010 (ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 0... = Push: Not set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······A····]
+    Window: 21
+    [Calculated window size: 21]
+    [Window size scaling factor: -1 (unknown)]
+    Checksum: 0x33ea [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.000000000 seconds]
+        [Time since previous frame in this TCP stream: 0.000000000 seconds]
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface enp0s3, id 0
+    Interface id: 0 (enp0s3)
